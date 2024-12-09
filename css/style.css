@@ -1,0 +1,140 @@
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0cap;
+}
+
+.container {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1300px) {
+  .container {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .container {
+    gap: 1px;
+  }
+}
+@media screen and (max-width: 809px) {
+  .container {
+    gap: 200px;
+  }
+}
+@media screen and (max-width: 322px) {
+  .container {
+    gap: 5px;
+  }
+}
+.container .tbc {
+  display: none;
+}
+@media screen and (max-width: 322px) {
+  .container .tbc {
+    display: flex;
+  }
+}
+.container .logos {
+  width: 20px;
+  display: flex;
+}
+@media screen and (max-width: 322px) {
+  .container .logos {
+    display: none;
+  }
+}
+.container nav {
+  display: flex;
+  width: 500px;
+  gap: 10px;
+}
+.container nav .img {
+  display: none;
+}
+@media screen and (max-width: 322px) {
+  .container nav .img {
+    display: flex;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .container nav .img {
+    display: flex;
+    margin-left: 10px;
+  }
+}
+.container ul {
+  display: flex;
+  gap: 50px;
+}
+@media screen and (max-width: 1450px) {
+  .container ul {
+    gap: 20px;
+  }
+}
+.container li {
+  display: flex;
+  width: 100px;
+  color: #E5E5E5;
+  font-size: 15px;
+}
+@media screen and (max-width: 1050px) {
+  .container li {
+    display: none;
+  }
+}
+.container .li {
+  color: white;
+  width: 100px;
+  font-size: 20px;
+}
+.container .li p {
+  color: black;
+  margin-left: -80px;
+  font-size: 20px;
+}
+.container .search {
+  display: flex;
+  height: 20px;
+  gap: 10px;
+  padding-top: 20px;
+}
+@media screen and (max-width: 1050px) {
+  .container .search {
+    display: none;
+  }
+}
+.container .search input {
+  background-color: #E5E5E5;
+  border-color: #E5E5E5;
+}
+@media screen and (max-width: 1050px) {
+  .container .search input {
+    display: none;
+  }
+}
+.container .head {
+  display: flex;
+  gap: 270px;
+}
+@media screen and (max-width: 1450px) {
+  .container .head {
+    gap: 120px;
+  }
+}
+.container :hover li {
+  cursor: pointer;
+}
+.container .tbc {
+  display: none;
+}
+@media screen and (max-width: 315px) {
+  .container .tbc {
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
