@@ -8,7 +8,7 @@ body {
 
 }
 
-.container {
+.container { max-width: 1440px;
     width: 100%;
     height: 80px;
     background-color: $header-color;
@@ -185,6 +185,7 @@ body {
 
 
 .geo {
+    max-width: 1440px;
     background-image: url(../images/geo.jpg);
     background-position: center;
     background-size: cover;
