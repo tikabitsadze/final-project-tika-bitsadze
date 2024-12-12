@@ -110,9 +110,10 @@ body {
 
     li {
         display: flex;
-        width: 100px;
-        color: $li-color;
-        font-size: 15px;
+        width: 110px;
+        color: white;
+        font-size: 18px;
+        
 
         @media screen and (max-width: 1050px) {
             display: none;
