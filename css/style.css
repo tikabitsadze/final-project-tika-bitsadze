@@ -223,4 +223,70 @@ h2 {
   align-items: center;
   justify-content: center;
   padding-top: 200px;
+}
+
+.block {
+  display: flex;
+  margin-top: 100px;
+  gap: 50px;
+  justify-content: space-around;
+}
+.block div {
+  border-style: solid;
+  border-color: rgb(237, 235, 235);
+  border-width: 1px;
+}
+.block div img {
+  width: 310px;
+  height: 200px;
+}
+.block div h4 {
+  font-size: 20px;
+  color: red;
+  margin-left: 40px;
+}
+
+.much {
+  font-size: 28px;
+  margin-left: 75px;
+}
+
+h4:hover {
+  cursor: pointer;
+  color: darkred;
+}
+
+footer {
+  height: 400px;
+  width: 100%;
+  background-color: darkred;
+  margin-top: 149px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 500px;
+}
+footer li {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+footer .div3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .div3 .div1 {
+  display: flex;
+  gap: 10px;
+}
+footer .div3 .div1 p {
+  color: white;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */

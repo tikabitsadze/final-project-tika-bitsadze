@@ -113,7 +113,9 @@ body {
         width: 110px;
         color: white;
         font-size: 18px;
-        
+
+
+
 
         @media screen and (max-width: 1050px) {
             display: none;
@@ -186,7 +188,8 @@ body {
 
 
 
-.geo { max-width: 1600px;
+.geo {
+    max-width: 1600px;
     background-image: url(../images/geo.jpg);
     background-position: center;
     background-size: cover;
@@ -270,20 +273,18 @@ h2 {
         img {
             width: 310px;
         }
-    }}
+    }
+}
 
-    // .animation {
-    //     width: 1400px;
-    //     margin-top: 100px;
-    //     height: 600px;
-    //     display: flex;
-    //     background-image: url(../images/map.png);
-    //     background-repeat: no-repeat;
+// .animation {
+//     width: 1400px;
+//     margin-top: 100px;
+//     height: 600px;
+//     display: flex;
+//     background-image: url(../images/map.png);
+//     background-repeat: no-repeat;
 
-    //     margin-left: 700px;
-       
-       
-
+//     margin-left: 700px;
 
 
 
@@ -295,7 +296,10 @@ h2 {
 
 
 
-    // }
+
+
+
+// }
 
 
 // .car{  animation-name: car;
@@ -325,22 +329,104 @@ h2 {
 // border-width: 2px;
 // margin-top: 50px;
 
-.flag{ background-image: url(../images/map.png);
-    
-width: 100%;
+.flag {
+    background-image: url(../images/map.png);
 
-height: 60px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-height: 500px;
-margin-top: 100px; 
+    width: 100%;
 
-  h2{ font-size: 200px;
-color: white;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-top: 100px;
 
-display: flex;
-align-items: center;
-justify-content: center;
-padding-top: 200px ;}
+    h2 {
+        font-size: 200px;
+        color: white;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 200px;
+    }
+}
+
+
+.block {
+    display: flex;
+    margin-top: 100px;
+
+    gap: 50px;
+    justify-content: space-around;
+
+    div {
+        border-style: solid;
+        border-color: rgb(237, 235, 235);
+        border-width: 1px;
+
+        img {
+            width: 310px;
+            height: 200px;
+        }
+
+        h4 {
+            font-size: 20px;
+            color: red;
+            margin-left: 40px;
+        }
+    }
+}
+
+.much {
+    font-size: 28px;
+    margin-left: 75px;
+}
+
+h4:hover {
+    cursor: pointer;
+    color: darkred;
+}
+
+footer {
+    height: 400px;
+    width: 100%;
+    background-color: darkred;
+    margin-top: 149px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  
+    gap: 500px;
+
+    li {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 20px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .div3 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+
+        .div1 {
+            display: flex;
+            gap: 10px;
+
+            p {
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+
 }
