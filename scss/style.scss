@@ -389,15 +389,28 @@ h4:hover {
 }
 
 footer {
-    height: 400px;
+    height: 340px;
     width: 100%;
     background-color: darkred;
     margin-top: 149px;
     display: flex;
     justify-content: center;
     padding-top: 50px;
-  
-    gap: 500px;
+
+    gap: 300px;
+
+
+    .facebook {
+        display: flex;
+        
+        width: 100px;
+        gap: 10px;
+
+        img{ width:  50px;
+            height: 60px;
+        }
+
+    }
 
     li {
         display: flex;
@@ -416,7 +429,7 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        
+
 
         .div1 {
             display: flex;
@@ -430,3 +443,40 @@ footer {
     }
 
 }
+
+a{ text-decoration: none;}
+
+.abt{ font-size: 50px;}
+
+.hi{ width: 600px;
+font-size: 30px; 
+margin-left: 55px;
+}
+
+.hello{ font-size: 30px;
+width: 1440px; 
+margin-left: 55px;}
+
+.places{ display: flex;
+justify-content: space-around;
+margin-left: 20px; 
+margin-top: 30px;
+}
+
+.places2{ margin-top: 200px; 
+border-top-style: solid;
+border-color: $text-color;
+border-width: 1px; 
+;}
+
+.about{ display: flex;
+    gap: 10px; 
+    align-items: center;
+
+    
+.photo{ display: flex;
+flex-direction: column;
+gap: 10px; 
+; 
+
+ img{ width: 500px;}}}
