@@ -1,5 +1,4 @@
 body {
-  max-width: 1600px;
   width: 100%;
   margin: 0cap;
 }
@@ -120,7 +119,6 @@ body {
 }
 .container .head {
   display: flex;
-  gap: 270px;
 }
 @media screen and (max-width: 1450px) {
   .container .head {
@@ -170,34 +168,19 @@ h2 {
 }
 
 .cards {
-  margin-top: 60px;
-  margin-left: 70px;
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
-.cards .div1 {
-  display: flex;
-  gap: 20px;
-}
-@media screen and (max-width: 167.99px) {
-  .cards .div1 {
-    display: flex;
-    flex-direction: column;
-  }
-}
 .cards .main {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
-}
-@media screen and (max-width: 340px) {
-  .cards .main {
-    display: flex;
-    flex-direction: column;
-  }
 }
 .cards .card1 {
   width: 310px;
+  height: 430px;
   border-style: solid;
   border-color: rgb(247, 245, 245);
   border-width: 2px;
@@ -239,11 +222,15 @@ h2 {
   justify-content: center;
   padding-top: 200px;
 }
+@media screen and (max-width: 1140px) {
+  .flag h2 {
+    font-size: 50px;
+  }
+}
 
 .block {
   display: flex;
   margin-top: 100px;
-  gap: 50px;
   justify-content: space-around;
 }
 .block div {
@@ -260,6 +247,12 @@ h2 {
   color: red;
   margin-left: 40px;
 }
+@media screen and (max-width: 1070px) {
+  .block {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .much {
   font-size: 28px;
@@ -272,18 +265,15 @@ h4:hover {
 }
 
 footer {
-  height: 340px;
   width: 100%;
   background-color: darkred;
   margin-top: 149px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding-top: 50px;
-  gap: 300px;
 }
 footer .facebook {
   display: flex;
-  width: 100px;
   gap: 10px;
 }
 footer .facebook img {
@@ -313,6 +303,12 @@ footer .div3 .div1 {
 footer .div3 .div1 p {
   color: white;
   font-size: 20px;
+}
+@media screen and (max-width: 1070px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 a {

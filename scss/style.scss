@@ -2,292 +2,219 @@
 @import 'mixins';
 
 body {
-
-    max-width: 1600px;
-    width: 100%;
-    margin: 0cap;
-
+  //   max-width: 1600px;
+  width: 100%;
+  margin: 0cap;
 }
 
 .container {
-    width: 100%;
-    height: 80px;
-    background-color: $header-color;
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background-color: $header-color;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
 
-    @media screen and (max-width: 1300px) {
-        gap: 50px;
-    }
+  @media screen and (max-width: 1300px) {
+    gap: 50px;
+  }
 
-    @media screen and (max-width: 1100px) {
-        gap: 1px;
-    }
+  @media screen and (max-width: 1100px) {
+    gap: 1px;
+  }
 
-    @media screen and (max-width: 809px) {
+  @media screen and (max-width: 809px) {
+    gap: 200px;
+  }
 
-        gap: 200px;
-    }
+  @media screen and (max-width: 322px) {
+    gap: 5px;
+  }
+
+  .tbc {
+    display: none;
 
     @media screen and (max-width: 322px) {
-        gap: 5px;
+      display: flex;
     }
+  }
 
-    .tbc {
-        display: none;
-
-        @media screen and (max-width: 322px) {
-            display: flex;
-
-
-
-        }
-    }
-
-    .logos {
-        width: 20px;
-        display: flex;
-
-        @media screen and (max-width: 322px) {
-            display: none;
-        }
-
-
-    }
-
-
-
-
-
-
-    nav {
-        display: flex;
-        width: 500px;
-        gap: 10px;
-
-        .img {
-            display: none;
-
-            @media screen and (max-width:322px) {
-                display: flex;
-
-            }
-
-            @media screen and (max-width: 1050px) {
-                display: flex;
-                margin-left: 10px;
-
-            }
-        }
-
-
-
-    }
-
-
-
-
-
-
-
-    ul {
-        display: flex;
-        gap: 50px;
-
-        @media screen and (max-width: 1450px) {
-            gap: 20px;
-        }
-
-
-
-
-
-
-
-    }
-
-
-    li {
-        display: flex;
-        width: 110px;
-        color: white;
-        font-size: 18px;
-
-
-
-
-        @media screen and (max-width: 1050px) {
-            display: none;
-
-        }
-
-
-    }
-
-    .li {
-        color: white;
-        width: 100px;
-        font-size: 20px;
-
-        p {
-            color: black;
-            margin-left: -80px;
-            font-size: 20px;
-
-        }
-    }
-
-
-    .search {
-        display: flex;
-        height: 20px;
-        gap: 10px;
-        padding-top: 20px;
-
-        @media screen and (max-width: 1050px) {
-            display: none;
-        }
-
-        input {
-            background-color: $li-color;
-            border-color: $li-color;
-
-            @media screen and (max-width: 1050px) {
-                display: none;
-            }
-        }
-    }
-
-    .head {
-        display: flex;
-        gap: 270px;
-
-        @media screen and (max-width: 1450px) {
-            gap: 120px;
-        }
-
-    }
-
-
-    :hover li {
-        cursor: pointer;
-
-
-
-    }
-
-    .tbc {
-        display: none;
-
-        @media screen and (max-width: 315px) {
-            display: flex;
-        }
-    }
-}
-
-
-
-.geo {
-    
-    background-image: url(../images/geo.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 0cap;
+  .logos {
+    width: 20px;
     display: flex;
-    flex-direction: column;
-    gap: 1px;
 
-
-    height: 600px;
-    background-repeat: no-repeat;
-    width: 100%;
-
-    h1 {
-        color: white;
-        padding-top: 315px;
-        font-size: 50px;
-        padding-left: 70px;
-        height: 5px;
-
+    @media screen and (max-width: 322px) {
+      display: none;
     }
+  }
+
+  nav {
+    display: flex;
+    width: 500px;
+    gap: 10px;
+
+    .img {
+      display: none;
+
+      @media screen and (max-width: 322px) {
+        display: flex;
+      }
+
+      @media screen and (max-width: 1050px) {
+        display: flex;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    gap: 50px;
+
+    @media screen and (max-width: 1450px) {
+      gap: 20px;
+    }
+  }
+
+  li {
+    display: flex;
+    width: 110px;
+    color: white;
+    font-size: 18px;
+
+    @media screen and (max-width: 1050px) {
+      display: none;
+    }
+  }
+
+  .li {
+    color: white;
+    width: 100px;
+    font-size: 20px;
 
     p {
-        color: white;
-        padding-left: 70px;
-        font-size: 40px;
+      color: black;
+      margin-left: -80px;
+      font-size: 20px;
+    }
+  }
+
+  .search {
+    display: flex;
+    height: 20px;
+    gap: 10px;
+    padding-top: 20px;
+
+    @media screen and (max-width: 1050px) {
+      display: none;
     }
 
+    input {
+      background-color: $li-color;
+      border-color: $li-color;
 
+      @media screen and (max-width: 1050px) {
+        display: none;
+      }
+    }
+  }
 
+  .head {
+    display: flex;
 
+    @media screen and (max-width: 1450px) {
+      gap: 120px;
+    }
+  }
+
+  :hover li {
+    cursor: pointer;
+  }
+
+  .tbc {
+    display: none;
+
+    @media screen and (max-width: 315px) {
+      display: flex;
+    }
+  }
 }
 
+.geo {
+  background-image: url(../images/geo.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0cap;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  h1 {
+    color: white;
+    padding-top: 315px;
+    font-size: 50px;
+    padding-left: 70px;
+    height: 5px;
+  }
+
+  p {
+    color: white;
+    padding-left: 70px;
+    font-size: 40px;
+  }
+}
 
 h2 {
-    margin-top: 100px;
-    margin-left: 70px;
+  margin-top: 100px;
+  margin-left: 70px;
 }
 
 .cards {
-    margin-top: 60px;
-    margin-left: 70px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 
-    .div1{ display: flex;
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
+  }
 
-@media screen and ( max-width: 167.99px){ 
-    display: flex;
-    flex-direction: column;}}
+  .card1 {
+    width: 310px;
+    height: 430px;
+    border-style: solid;
+    border-color: rgb(247, 245, 245);
+    border-width: 2px;
 
-
-    .main {
-        display: flex;
-        gap: 20px;
-
-        @media screen and (max-width:340px) {
-
-            display: flex;
-            flex-direction: column;
-            
-        }
+    img {
+      height: 200px;
     }
 
-    .card1 {
-        width: 310px;
-        border-style: solid;
-        border-color: rgb(247, 245, 245);
-        border-width: 2px;
+    .floor {
+      padding-left: 5px;
+      color: $text-color;
 
-
-        img {
-            height: 200px;
-        }
-
-        .floor {
-            padding-left: 5px;
-            color: $text-color;
-
-            h3 {
-                color: black;
-            }
-        }
-
-        .more {
-            display: flex;
-            justify-content: end;
-            color: $text-color;
-        }
-
-
-
-        img {
-            width: 310px;
-        }
+      h3 {
+        color: black;
+      }
     }
+
+    .more {
+      display: flex;
+      justify-content: end;
+      color: $text-color;
+    }
+
+    img {
+      width: 310px;
+    }
+  }
 }
 
 // .animation {
@@ -300,21 +227,7 @@ h2 {
 
 //     margin-left: 700px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // }
-
 
 // .car{  animation-name: car;
 //     animation-duration: 10s;
@@ -323,7 +236,6 @@ h2 {
 //     margin-left: -700px;
 //     animation-iteration-count: infinite;
 // }
-
 
 // @keyframes car {
 //     from {
@@ -335,7 +247,6 @@ h2 {
 //     }
 // }
 
-
 // .georgia{ width: 100%;
 // height: 550px;
 // border-style: solid;
@@ -344,153 +255,168 @@ h2 {
 // margin-top: 50px;
 
 .flag {
-    background-image: url(../images/map.png);
+  background-image: url(../images/map.png);
 
-    width: 100%;
+  width: 100%;
 
-    height: 60px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 500px;
-    margin-top: 100px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-top: 100px;
 
-    h2 {
-        font-size: 200px;
-        color: white;
+  h2 {
+    font-size: 200px;
+    color: white;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+
+    @media screen and (max-width: 1140px) {
+      font-size: 50px;
     }
+  }
 }
 
-
 .block {
-    display: flex;
-    margin-top: 100px;
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
 
-    gap: 50px;
-    justify-content: space-around;
+  div {
+    border-style: solid;
+    border-color: rgb(237, 235, 235);
+    border-width: 1px;
 
-    div {
-        border-style: solid;
-        border-color: rgb(237, 235, 235);
-        border-width: 1px;
-
-        img {
-            width: 310px;
-            height: 200px;
-        }
-
-        h4 {
-            font-size: 20px;
-            color: red;
-            margin-left: 40px;
-        }
+    img {
+      width: 310px;
+      height: 200px;
     }
+
+    h4 {
+      font-size: 20px;
+      color: red;
+      margin-left: 40px;
+    }
+  }
+
+  @media screen and (max-width: 1070px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .much {
-    font-size: 28px;
-    margin-left: 75px;
+  font-size: 28px;
+  margin-left: 75px;
 }
 
 h4:hover {
-    cursor: pointer;
-    color: darkred;
+  cursor: pointer;
+  color: darkred;
 }
 
 footer {
-    height: 340px;
-    width: 100%;
-    background-color: darkred;
-    margin-top: 149px;
+  width: 100%;
+  background-color: darkred;
+  margin-top: 149px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+
+  .facebook {
     display: flex;
-    justify-content: center;
-    padding-top: 50px;
+    gap: 10px;
 
-    gap: 300px;
-
-
-    .facebook {
-        display: flex;
-        
-        width: 100px;
-        gap: 10px;
-
-        img{ width:  50px;
-            height: 60px;
-        }
-
+    img {
+      width: 50px;
+      height: 60px;
     }
+  }
 
-    li {
-        display: flex;
-        flex-direction: column;
+  li {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .div3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .div1 {
+      display: flex;
+      gap: 10px;
+
+      p {
         color: white;
         font-size: 20px;
+      }
     }
+  }
 
-    ul {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .div3 {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-
-
-        .div1 {
-            display: flex;
-            gap: 10px;
-
-            p {
-                color: white;
-                font-size: 20px;
-            }
-        }
-    }
-
-}
-
-a{ text-decoration: none;}
-
-.abt{ font-size: 50px;}
-
-.hi{ width: 600px;
-font-size: 30px; 
-margin-left: 55px;
-}
-
-.hello{ font-size: 30px;
-width: 1440px; 
-margin-left: 55px;}
-
-.places{ display: flex;
-justify-content: space-around;
-margin-left: 20px; 
-margin-top: 30px;
-}
-
-.places2{ margin-top: 200px; 
-border-top-style: solid;
-border-color: $text-color;
-border-width: 1px; 
-;}
-
-.about{ display: flex;
-    gap: 10px; 
+  @media screen and (max-width: 1070px) {
+    flex-direction: column;
     align-items: center;
+  }
+}
 
-    
-.photo{ display: flex;
-flex-direction: column;
-gap: 10px; 
-; 
+a {
+  text-decoration: none;
+}
 
- img{ width: 500px;}}}
+.abt {
+  font-size: 50px;
+}
+
+.hi {
+  width: 600px;
+  font-size: 30px;
+  margin-left: 55px;
+}
+
+.hello {
+  font-size: 30px;
+  width: 1440px;
+  margin-left: 55px;
+}
+
+.places {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.places2 {
+  margin-top: 200px;
+  border-top-style: solid;
+  border-color: $text-color;
+  border-width: 1px;
+}
+
+.about {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  .photo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    img {
+      width: 500px;
+    }
+  }
+}
