@@ -189,7 +189,7 @@ body {
 
 
 .geo {
-    max-width: 1600px;
+    
     background-image: url(../images/geo.jpg);
     background-position: center;
     background-size: cover;
@@ -236,10 +236,24 @@ h2 {
     flex-direction: column;
     gap: 50px;
 
+    .div1{ display: flex;
+    gap: 20px;
+
+@media screen and ( max-width: 167.99px){ 
+    display: flex;
+    flex-direction: column;}}
+
 
     .main {
         display: flex;
         gap: 20px;
+
+        @media screen and (max-width:340px) {
+
+            display: flex;
+            flex-direction: column;
+            
+        }
     }
 
     .card1 {
