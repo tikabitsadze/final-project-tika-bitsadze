@@ -51,7 +51,7 @@ body {
 .container nav {
   display: flex;
   width: 500px;
-  gap: 10px;
+  margin-right: 200px;
 }
 .container nav .img {
   display: none;
@@ -69,12 +69,7 @@ body {
 }
 .container ul {
   display: flex;
-  gap: 50px;
-}
-@media screen and (max-width: 1450px) {
-  .container ul {
-    gap: 20px;
-  }
+  gap: 30px;
 }
 .container li {
   display: flex;
@@ -168,29 +163,10 @@ h2 {
 }
 
 .cards {
-<<<<<<< Updated upstream
-=======
-  width: 100%;
->>>>>>> Stashed changes
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
-<<<<<<< Updated upstream
-=======
-.cards .div1 {
-  display: flex;
-  width: 100%;
-}
-@media screen and (max-width: 1460px) {
-  .cards .div1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
->>>>>>> Stashed changes
 .cards .main {
   display: flex;
   justify-content: center;
@@ -199,11 +175,7 @@ h2 {
 }
 .cards .card1 {
   width: 310px;
-<<<<<<< Updated upstream
   height: 430px;
-=======
-  height: 600px;
->>>>>>> Stashed changes
   border-style: solid;
   border-color: rgb(247, 245, 245);
   border-width: 2px;
@@ -321,6 +293,7 @@ footer .div3 {
 }
 footer .div3 .div1 {
   display: flex;
+  gap: 10px;
 }
 footer .div3 .div1 p {
   color: white;
@@ -379,4 +352,10 @@ a {
 }
 .about .photo img {
   width: 500px;
+}
+
+.nav {
+  display: flex;
+  gap: 100px;
+  width: 1000px;
 }/*# sourceMappingURL=style.css.map */

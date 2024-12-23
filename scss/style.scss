@@ -2,18 +2,9 @@
 @import 'mixins';
 
 body {
-<<<<<<< Updated upstream
   //   max-width: 1600px;
   width: 100%;
   margin: 0cap;
-=======
-
-    max-width: 1600px;
-    width: 100%;
-    margin: 0cap;
- 
-
->>>>>>> Stashed changes
 }
 
 .container {
@@ -51,24 +42,6 @@ body {
   .logos {
     width: 20px;
     display: flex;
-<<<<<<< Updated upstream
-=======
-    flex-direction: column;
-    gap: 1px;
-
-
-    height: 600px;
-    background-repeat: no-repeat;
-    width: 100%;
-   
-
-    h1 {
-        color: white;
-        padding-top: 315px;
-        font-size: 50px;
-        padding-left: 70px;
-        height: 5px;
->>>>>>> Stashed changes
 
     @media screen and (max-width: 322px) {
       display: none;
@@ -78,7 +51,7 @@ body {
   nav {
     display: flex;
     width: 500px;
-    gap: 10px;
+    margin-right: 200px;
 
     .img {
       display: none;
@@ -96,10 +69,11 @@ body {
 
   ul {
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    
 
     @media screen and (max-width: 1450px) {
-      gap: 20px;
+     
     }
   }
 
@@ -118,6 +92,7 @@ body {
     color: white;
     width: 100px;
     font-size: 20px;
+   
 
     p {
       color: black;
@@ -201,7 +176,6 @@ h2 {
 }
 
 .cards {
-<<<<<<< Updated upstream
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -219,40 +193,14 @@ h2 {
     border-style: solid;
     border-color: rgb(247, 245, 245);
     border-width: 2px;
-=======
-    width: 100%;
-    
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-
-    .div1{ display: flex;
-    
-    width: 100%;
-
-@media screen and ( max-width: 1460px){ 
-    display: flex;
-    flex-direction: column;
-justify-content: center;
-align-items: center;}}
->>>>>>> Stashed changes
 
     img {
       height: 200px;
     }
 
-<<<<<<< Updated upstream
     .floor {
       padding-left: 5px;
       color: $text-color;
-=======
-    .card1 {
-        width: 310px;
-        height: 600px;
-        border-style: solid;
-        border-color: rgb(247, 245, 245);
-        border-width: 2px;
->>>>>>> Stashed changes
 
       h3 {
         color: black;
@@ -420,63 +368,8 @@ footer {
     }
   }
 
-<<<<<<< Updated upstream
   @media screen and (max-width: 1070px) {
     flex-direction: column;
-=======
-    ul {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .div3 {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-
-
-        .div1 {
-            display: flex;
-        
-
-            p {
-                color: white;
-                font-size: 20px;
-            }
-        }
-    }
-
-}
-
-a{ text-decoration: none;}
-
-.abt{ font-size: 50px;}
-
-.hi{ width: 600px;
-font-size: 30px; 
-margin-left: 55px;
-}
-
-.hello{ font-size: 30px;
-width: 1440px; 
-margin-left: 55px;}
-
-.places{ display: flex;
-justify-content: space-around;
-margin-left: 20px; 
-margin-top: 30px;
-}
-
-.places2{ margin-top: 200px; 
-border-top-style: solid;
-border-color: $text-color;
-border-width: 1px; 
-;}
-
-.about{ display: flex;
-    gap: 10px; 
->>>>>>> Stashed changes
     align-items: center;
   }
 }
@@ -529,3 +422,7 @@ a {
     }
   }
 }
+
+.nav{ display: flex;
+gap: 100px;
+width: 1000px;}
