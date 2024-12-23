@@ -453,13 +453,97 @@ a {
     gap: 50px;
     font-size: 25px;
     color: rgb(9, 220, 9);
-    height: 700px;
+    height: 300px;
     border-top: solid $header-color 1px;
+    border-bottom:solid $header-color 1px; ;
     width: 1100px;
     align-items: center;
+    justify-content: center;
 
     li {
       width: 900px;
     }
   }
 }
+
+.tour{ width: 1100px; 
+  margin: 0 auto;
+  margin-top: 50px;
+  border-bottom: solid 1px $header-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+.p2{ font-size: 25px;
+color: grey;
+width: 1000px;
+height: 200px;}
+.p1{ font-size: 35px; 
+width: 1000px;
+height: 50px;}}
+
+.cost{ width: 80%;
+height: 400px;
+background-color: green;
+margin: 0 auto;
+margin-top: 100px;
+.money{ width: 100%;
+height: 70px;
+border: solid 1px white;
+ display: flex;
+justify-content: space-between;
+p{color: white;
+font-size: 30px;}}}
+
+
+.newss{ margin-left: 50px;
+margin: 150px;}
+
+
+
+.news{ 
+
+  border-top: solid 1px $header-color;
+  
+  width: 100%;
+  .add{ font-size: 25px;
+    width: 1000px;
+ 
+}
+.time{ display: flex;
+  gap: 10px; 
+  text-align: top;
+  height: 50px;
+  p{ color: $header-color;
+  font-size: 20px;}
+img{ width: 20px;
+margin-top: 5px;}}
+}
+
+.news2{  width: 100%;
+  
+  border-top: solid 1px $header-color;
+  padding-top: 50px;
+  gap: 20px;
+  img{ width: 200px;
+  height: 200px;
+margin-bottom: 60px;}
+  .p1{ font-size: 20px;
+      width: 100%px;}
+
+      .p2{ color: $header-color;
+      font-size: 20px;
+    }
+
+    .time{ display: flex;
+      gap: 10px; 
+      text-align: top;
+      height: 50px;
+    img{ width: 20px;
+    margin-top:-70px;}}
+}
+
+
+.hellloo{ display: flex;
+gap: 20px; 
+.p3{ font-size: 20px;}}
