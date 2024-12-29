@@ -372,7 +372,7 @@ a {
   align-items: center;
 }
 .servieces p {
-  margin-left: 290px;
+  margin-left: 310px;
   font-size: 35px;
 }
 .servieces ul {
@@ -381,8 +381,8 @@ a {
   flex-direction: column;
   gap: 50px;
   font-size: 25px;
-  color: rgb(9, 220, 9);
-  height: 300px;
+  color: black;
+  height: 400px;
   border-top: solid rgba(0, 0, 0, 0.2) 1px;
   border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
   width: 1100px;
@@ -406,13 +406,14 @@ a {
 .tour .p2 {
   font-size: 25px;
   color: grey;
-  width: 1000px;
+  width: 950px;
   height: 200px;
 }
 .tour .p1 {
   font-size: 35px;
   width: 1000px;
   height: 50px;
+  margin-left: 50px;
 }
 
 .cost {
@@ -502,9 +503,53 @@ a {
 
 .guide {
   display: flex;
+  gap: 20px;
 }
 .guide img {
-  width: 250px;
-  height: 200px;
+  width: 450px;
+}
+
+.contacts {
+  width: 90%;
+  height: 300px;
+  display: flex;
+  margin-bottom: 100px;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-size: 35px;
+}
+.contacts p {
+  width: 100%;
+}
+.contacts h3 {
+  width: 100%;
+}
+
+.with_guide {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  gap: 50px;
   margin-top: 50px;
+}
+.with_guide img {
+  width: 300px;
+}
+.with_guide h4 {
+  color: black;
+  font-size: 15px;
+}
+
+.text {
+  width: 1000px;
+  margin: 0 auto;
+}
+.text h2 {
+  font-size: 30px;
+}
+.text p {
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
