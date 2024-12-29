@@ -498,4 +498,13 @@ a {
 }
 .hellloo .p3 {
   font-size: 20px;
+}
+
+.guide {
+  display: flex;
+}
+.guide img {
+  width: 250px;
+  height: 200px;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
