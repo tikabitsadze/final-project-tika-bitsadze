@@ -433,7 +433,7 @@ a {
   flex-direction: column;
   gap: 30px;
   margin-top: 50px;
- 
+
 
   .tt {
     display: flex;
@@ -456,7 +456,8 @@ a {
     color: black;
     height: 400px;
     border-top: solid $header-color 1px;
-    border-bottom:solid $header-color 1px; ;
+    border-bottom: solid $header-color 1px;
+    ;
     width: 1100px;
     align-items: center;
     justify-content: center;
@@ -467,7 +468,8 @@ a {
   }
 }
 
-.tour{ width: 1100px; 
+.tour {
+  width: 1100px;
   margin: 0 auto;
   margin-top: 50px;
   border-bottom: solid 1px $header-color;
@@ -475,121 +477,306 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-.p2{ font-size: 25px;
-color: grey;
-width: 950px;
-height: 200px;}
-.p1{ font-size: 35px; 
-width: 1000px;
-height: 50px; 
-margin-left: 50px;}}
 
-.cost{ width: 80%;
-height: 400px;
-background-color: green;
-margin: 0 auto;
-margin-top: 100px;
-.money{ width: 100%;
-height: 70px;
-border: solid 1px white;
- display: flex;
-justify-content: space-between;
-p{color: white;
-font-size: 30px;}}}
+  .p2 {
+    font-size: 25px;
+    color: grey;
+    width: 950px;
+    height: 200px;
+  }
 
-
-.newss{ margin-left: 50px;
-margin: 150px;}
-
-
-
-.news{ 
-
-  border-top: solid 1px $header-color;
-  
-  width: 100%;
-  .add{ font-size: 25px;
+  .p1 {
+    font-size: 35px;
     width: 1000px;
- 
-}
-.time{ display: flex;
-  gap: 10px; 
-  text-align: top;
-  height: 50px;
-  p{ color: $header-color;
-  font-size: 20px;}
-img{ width: 20px;
-margin-top: 5px;}}
+    height: 50px;
+    margin-left: 50px;
+  }
 }
 
-.news2{  width: 100%;
-  
+.cost {
+  width: 80%;
+  height: 400px;
+  background-color: green;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  .money {
+    width: 100%;
+    height: 70px;
+    border: solid 1px white;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      color: white;
+      font-size: 30px;
+    }
+  }
+}
+
+
+.newss {
+  margin-left: 50px;
+  margin: 150px;
+}
+
+
+
+.news {
+
   border-top: solid 1px $header-color;
-  padding-top: 50px;
-  gap: 20px;
-  img{ width: 200px;
-  height: 200px;
-margin-bottom: 60px;}
-  .p1{ font-size: 20px;
-      width: 100%px;}
 
-      .p2{ color: $header-color;
+  width: 100%;
+
+  .add {
+    font-size: 25px;
+    width: 1000px;
+
+  }
+
+  .time {
+    display: flex;
+    gap: 10px;
+    text-align: top;
+    height: 50px;
+
+    p {
+      color: $header-color;
       font-size: 20px;
     }
 
-    .time{ display: flex;
-      gap: 10px; 
-      text-align: top;
-      height: 50px;
-    img{ width: 20px;
-    margin-top:-70px;}}
+    img {
+      width: 20px;
+      margin-top: 5px;
+    }
+  }
 }
 
+.news2 {
+  width: 100%;
 
-.hellloo{ display: flex;
-gap: 20px; 
-.p3{ font-size: 20px;}}
-
-.guide{ display: flex;
+  border-top: solid 1px $header-color;
+  padding-top: 50px;
   gap: 20px;
-img{ width: 450px;}}
 
+  img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 60px;
+  }
 
-.contacts{  width: 90%;
-height: 300px;
-display: flex;
+  .p1 {
+    font-size: 20px;
+    width: 100%px;
+  }
 
-margin-bottom:100px;
+  .p2 {
+    color: $header-color;
+    font-size: 20px;
+  }
 
-gap: 100px;
-align-items: center;
-justify-content: center;
-p{ width: 100%;
+  .time {
+    display: flex;
+    gap: 10px;
+    text-align: top;
+    height: 50px;
+
+    img {
+      width: 20px;
+      margin-top: -70px;
+    }
+  }
 }
 
-h3{ width: 100%;}
+
+.hellloo {
+  display: flex;
+  gap: 20px;
+
+  .p3 {
+    font-size: 20px;
+  }
+}
+
+.guide {
+  display: flex;
+  gap: 20px;
+
+  img {
+    width: 450px;
+  }
+}
 
 
-margin: 0 auto;
-margin-top: 150px;
-font-size: 35px;}
+.contacts {
+  width: 90%;
+  height: 300px;
+  display: flex;
+
+  margin-bottom: 100px;
+
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    width: 100%;
+  }
+
+  h3 {
+    width: 100%;
+  }
 
 
-.with_guide{ display: flex;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-size: 35px;
+}
+
+
+.with_guide {
+  display: flex;
   width: 900px;
   margin: 0 auto;
   gap: 50px;
   margin-top: 50px;
-  img{ width: 300px;};
 
-  h4{ color: black;
-  font-size: 15px;}
+
+
+  img {
+    width: 300px;
+  }
+
+  ;
+
+  h4 {
+    color: black;
+    font-size: 15px;
+  }
 }
 
 
-.text{ width: 1000px;
-margin: 0 auto; 
+.text {
+  width: 1000px;
+  margin: 0 auto;
 
-h2{ font-size: 30px;}
-p{ font-size: 25px;}}
+  h2 {
+    font-size: 30px;
+  }
 
+  p {
+    font-size: 25px;
+  }
+}
+
+
+
+.box {
+  display: flex;
+
+  justify-content: space-around;
+  padding-top: 100px;
+  margin-top: 100px;
+
+  border-top: 1px $header-color solid;
+
+  .kakheti {
+    background-image: url(../images/kakheti.jpg);
+ @include box;
+
+
+    input {
+   @include input;
+  }}
+
+
+
+
+.seemore {
+  width: 300px;
+  height: 50px;
+  margin-top: -167px;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px $header-color solid;
+
+  input {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 0cap;
+  }
+}  
+
+
+.kutaisi{  background-image: url(../images/kutaisi.jpg);
+@include box;
+
+
+
+  input {
+    @include input;
+  }}  
+
+
+.borjomi{  background-image: url(../images/borjomi.jpg);
+ @include box;
+
+  input {
+ @include input;
+  }}  
+
+.ufliscixe{ background-image: url(../images/ufliscixe.jpg);
+  @include box
+}  
+
+input{ @include input}}
+
+
+
+.infor{ 
+  display: flex;
+  background-color: green;
+  height: 185px;
+  justify-content: space-around;
+  margin-top: 90px;
+  
+
+
+
+  img{ width: 40px;}
+  div{ display: flex;
+ align-items: center;
+ gap: 10px;
+    
+    
+    p{ font-size: 30px;
+    color: white;}
+  
+  .loc{ background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+  border-radius: 50%;}}
+}
+
+
+.describe{ margin-top: 100px;
+  margin-left: 50px;
+  
+
+
+
+p{ width: 1200px;
+font-size: 20px;}
+
+  .plan{ 
+
+    h3{ font-size: 25px;}
+    p{ font-size: 20px;
+    width: 1000px;}
+  }
+
+}
