@@ -837,3 +837,21 @@ height: 30px;}
 }
 
 
+
+.protect{     
+
+
+  @include head;
+
+  background-image: url(../images/213sataplia.avi_000205960.jpg);
+}
+
+
+
+.vashli{ display: flex;
+
+  gap: 10px;
+
+img{ width: 500px; 
+height: 500px;}}
+
