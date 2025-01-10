@@ -394,10 +394,25 @@ a {
   gap: 10px;
   align-items: center;
 
+
+  @media screen and ( max-width: 341px){ 
+
+    display: flex;
+    flex-direction: column;
+  }
+
   .photo {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+
+    @media screen and (max-width: 341px){
+
+      display: flex;
+
+      
+    }
 
     img {
       width: 500px;
@@ -854,4 +869,14 @@ height: 30px;}
 
 img{ width: 500px; 
 height: 500px;}}
+
+
+
+
+
+.kura{
+
+  @include head;
+  background-image: url(../images/R\ \(1\).jpg);
+}
 

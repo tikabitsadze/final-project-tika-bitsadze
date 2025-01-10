@@ -359,10 +359,21 @@ a {
   gap: 10px;
   align-items: center;
 }
+@media screen and (max-width: 341px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .about .photo {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+@media screen and (max-width: 341px) {
+  .about .photo {
+    display: flex;
+  }
 }
 .about .photo img {
   width: 500px;
@@ -841,4 +852,36 @@ a {
 .vashli img {
   width: 500px;
   height: 500px;
+}
+
+.kura {
+  background-position: center;
+  background-size: cover;
+  margin: 0cap;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(../images/R\ \(1\).jpg);
+}
+.kura h1 {
+  color: white;
+  padding-top: 315px;
+  font-size: 50px;
+  padding-left: 70px;
+  height: 5px;
+}
+@media screen and (max-width: 1140px) {
+  .kura h1 {
+    font-size: 50px;
+    width: 300px;
+    margin-bottom: 80px;
+  }
+}
+.kura p {
+  color: white;
+  padding-left: 70px;
+  font-size: 40px;
 }/*# sourceMappingURL=style.css.map */
