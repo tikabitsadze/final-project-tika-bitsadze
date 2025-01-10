@@ -623,6 +623,12 @@ a {
   height: 50px;
   margin-left: 50px;
 }
+@media screen and (max-width: 1000px) {
+  .tour .p1 {
+    font-size: 15px;
+    width: 50%;
+  }
+}
 
 .cost {
   width: 80%;
@@ -656,15 +662,32 @@ a {
   font-size: 25px;
   width: 1000px;
 }
+@media screen and (max-width: 1000px) {
+  .news .add {
+    font-size: 15px;
+    width: 50%;
+  }
+}
 .news .time {
   display: flex;
   gap: 10px;
   text-align: top;
   height: 50px;
 }
+@media screen and (max-width: 1003px) {
+  .news .time {
+    flex-direction: column;
+  }
+}
 .news .time p {
   color: rgba(0, 0, 0, 0.2);
   font-size: 20px;
+}
+@media screen and (max-width: 1003px) {
+  .news .time p {
+    font-size: 15px;
+    width: 50%;
+  }
 }
 .news .time img {
   width: 20px;
@@ -705,8 +728,26 @@ a {
   display: flex;
   gap: 20px;
 }
+@media screen and (max-width: 1000px) {
+  .hellloo {
+    font-size: 15px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1003px) {
+  .hellloo {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
 .hellloo .p3 {
   font-size: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .hellloo .p3 {
+    font-size: 15px;
+    width: 50%;
+  }
 }
 
 .guide {
@@ -729,11 +770,35 @@ a {
   margin-top: 150px;
   font-size: 35px;
 }
+@media screen and (max-width: 726px) {
+  .contacts {
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1043px) {
+  .contacts img {
+    display: none;
+  }
+}
 .contacts p {
   width: 100%;
 }
+@media screen and (max-width: 458px) {
+  .contacts p {
+    font-size: 20px;
+    width: 50%;
+  }
+}
 .contacts h3 {
   width: 100%;
+}
+@media screen and (max-width: 458) {
+  .contacts h3 {
+    font-size: 15px;
+    width: 50%;
+  }
 }
 
 .with_guide {
@@ -965,11 +1030,22 @@ a {
   font-size: 20px;
   width: 1000px;
 }
+@media screen and (max-width: 1005px) {
+  .sveti p {
+    font-size: 15px;
+    width: 50%;
+  }
+}
 .sveti img {
   width: 1000px;
 }
-
-.sveti2 {
+@media screen and (max-width: 1005px) {
+  .sveti img {
+    width: 50%;
+    height: 300px;
+  }
+}
+.sveti .sveti2 {
   display: flex;
   justify-content: space-around;
   height: 400px;
@@ -977,11 +1053,11 @@ a {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.sveti2 img {
+.sveti .sveti2 img {
   height: 300px;
   width: 500px;
 }
-.sveti2 p {
+.sveti .sveti2 p {
   width: 500px;
   font-size: 20px;
 }

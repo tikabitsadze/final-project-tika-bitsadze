@@ -806,6 +806,10 @@ a {
     width: 1000px;
     height: 50px;
     margin-left: 50px;
+
+
+
+    @include responsive;
   }
 }
 
@@ -848,6 +852,14 @@ a {
     font-size: 25px;
     width: 1000px;
 
+
+
+    @media screen and ( max-width: 1000px){ 
+
+      font-size: 15px;
+      width: 50%;
+    }
+
   }
 
   .time {
@@ -856,9 +868,24 @@ a {
     text-align: top;
     height: 50px;
 
+
+
+    @media screen and ( max-width: 1003px){ 
+
+      flex-direction: column;
+    }
+
     p {
       color: $header-color;
       font-size: 20px;
+
+      @media screen and ( max-width: 1003px) { 
+
+
+        font-size: 15px;
+
+        width: 50%;
+      }
     }
 
     img {
@@ -909,9 +936,26 @@ a {
   display: flex;
   gap: 20px;
 
+
+  @include responsive;
+
+  @media screen and ( max-width: 1003px){ 
+
+    flex-direction: column;
+
+    gap: 5px
+  }
+
   .p3 {
     font-size: 20px;
+
+
+    @media screen and ( max-width: 1000px){ 
+
+      font-size: 15px;
+      width: 50%;
   }
+}
 }
 
 .guide {
@@ -929,6 +973,20 @@ a {
   height: 300px;
   display: flex;
 
+
+
+@media screen and ( max-width: 726px){ 
+
+
+  width: 300px;
+  flex-direction: column;
+  align-items: center
+}
+
+
+  img{   @media screen and (  max-width: 1043px
+  ){  display: none   ;}}
+
   margin-bottom: 100px;
 
   gap: 100px;
@@ -937,16 +995,34 @@ a {
 
   p {
     width: 100%;
-  }
+
+
+
+    @media screen and (max-width:458px) { 
+
+
+      font-size: 20px;
+      width: 50%
+
+
+
+  }}
 
   h3 {
     width: 100%;
-  }
+    @media screen and ( max-width: 458){ 
+
+      font-size: 15px;
+      width: 50%
+
+
+  }}
 
 
   margin: 0 auto;
   margin-top: 150px;
   font-size: 35px;
+
 }
 
 
@@ -1143,6 +1219,12 @@ border-bottom: solid 1px $header-color;}
   flex-direction: column;
   align-items: center;
   gap: 10px;
+    
+
+
+ 
+
+
 
 
   img{ width: 500px;
@@ -1170,11 +1252,36 @@ height: 30px;}
   }
 
   p{ font-size: 20px;
-  width: 1000px;}
+  width: 1000px; 
+@media screen and (max-width: 1005px) { 
 
 
-  img{ width: 1000px;}
+
+  font-size: 15px; 
+
+  width: 50%;
+
 }
+
+  }
+
+
+  img{ width: 1000px;  
+
+ @media screen and (max-width: 1005px){ 
+
+
+
+  width: 50%;
+
+
+  height: 300px;
+
+
+
+
+
+}}
 
 .sveti2{ 
   display: flex;
@@ -1190,7 +1297,7 @@ height: 30px;}
   p{ width: 500px;
   
   font-size: 20px;}
-}
+}}
 
 
 
@@ -1225,6 +1332,7 @@ height: 500px;}}
 .kura{
 
   @include head;
-  background-image: url(../images/R\ \(1\).jpg);
-}
+  background-image: url(../images/R\ \(1\).jpg) 
 
+
+}
