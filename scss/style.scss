@@ -361,18 +361,91 @@ a {
 
 .abt {
   font-size: 50px;
+
+  display: flex;
 }
 
 .hi {
   width: 600px;
   font-size: 30px;
   margin-left: 55px;
+
+
+
+
+  @media screen and ( max-width: 1431px){ 
+
+    width: 50%;
+
+    
+
+    
+
+    font-size: 20px;
+  } 
+
+
+
+
+
+
+  @media screen and ( max-width: 1113px){ 
+
+
+    margin-left: -500px;
+  }
+
+
+
+  @media screen and ( max-width: 1030px){ 
+
+
+    font-size: 20px;
+  }
+
+
+
+    @media screen and ( max-width: 950px){ 
+
+      font-size: 15px;
+      margin: 0 auto;
+    }
+
+
+
+  @media screen and ( max-width: 406px) {
+
+    margin: 0%;
+
+    font-size: 15px;
+    
+  }
+
+
+
+  @media screen and ( max-width: 950px){ 
+
+
+    font-size: 15px;
+
+    margin-left: 10px;
+  }
+
+
+
+ 
 }
 
 .hello {
   font-size: 30px;
   width: 1440px;
   margin-left: 55px;
+
+
+  @media screen and ( max-width: 530px){ 
+
+    font-size: 18px;
+  }
 }
 
 .places {
@@ -380,6 +453,29 @@ a {
   justify-content: space-around;
   margin-left: 20px;
   margin-top: 30px;
+
+
+  img{ @media screen and ( max-width: 1431px){ 
+
+
+    width: 50%;
+
+    margin: 0 auto;
+  }    
+
+
+@media screen and ( max-width:1113px){ 
+  display: none;
+}}
+
+
+
+  @media screen and ( max-width: 1431px){ 
+
+    display: flex;
+    flex-direction: column;
+
+  }
 }
 
 .places2 {
@@ -387,6 +483,16 @@ a {
   border-top-style: solid;
   border-color: $text-color;
   border-width: 1px;
+
+
+
+  .hello{ @media screen and ( max-width: 1431px){ 
+
+    width: 50%;
+
+    margin: 0 auto;
+    margin-top: 20px;
+  }}
 }
 
 .about {
@@ -395,10 +501,80 @@ a {
   align-items: center;
 
 
-  @media screen and ( max-width: 341px){ 
+  margin: 0 auto;
+
+
+
+
+  @media screen and ( max-width: 950px){ 
+
+
+    margin-left: 0%;
+  }
+
+
+
+
+
+  @media screen and ( max-width: 1431px){ 
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    margin-left: 100px;
+  }
+
+
+  .hi{ @media screen and ( max-width: 1431px){ 
+
+    width: 50%;
+
+    
+
+    
+
+    font-size: 20px;
+  } 
+
+
+
+
+
+
+  @media screen and ( max-width: 1113px){ 
+
+
+    margin-left: -500px;
+  }
+
+
+
+  @media screen and ( max-width: 1030px){ 
+
+
+    font-size: 20px;
+  }
+
+
+
+    @media screen and ( max-width: 950px){ 
+
+      font-size: 15px;
+      margin: 0 auto;
+    }
+
+
+
+  @media screen and ( max-width: 406px) {
+
+    margin: 0%;
+
+    font-size: 15px;
+    
+  }
+
+
   }
 
   .photo {
@@ -406,19 +582,92 @@ a {
     flex-direction: column;
     gap: 10px;
 
+    width: 100%;
 
-    @media screen and (max-width: 341px){
+
+    @media  screen and ( max-width: 950px) {
+
+
+      width: 50%;
+      
+    }
+
+
+
+    img{
+      
+      
+
+
+      }
+
+
+
+   .img1{  @media screen and ( max-width: 1113px){ 
+
+    display: none;
+
+}}
+
+
+    @media screen and (max-width: 1431px){
 
       display: flex;
+      flex-direction: row;
+      width: 100%;
+
 
       
     }
 
     img {
       width: 500px;
+
+      @media screen and  (max-width: 950px){  
+
+        width: 50%;
+
+        height: 100px ;
+
+
+
+
+     
+        
+        
+        @media screen and ( max-width: 1030px){ 
+  
+  
+  
+        width: 50%;
+        height: 200px;
+
+        margin: 0 auto;
+      }
+
+
+
+      @media screen and ( max-width: 950px){ 
+
+        width: 50%;
+        height: 100px;
+      }
+
+
+
+      @media screen and ( max-width: 406px) {
+
+        margin: 0%;
+        
+      }
+      }
+
+     
+        
+      }
     }
   }
-}
+
 
 .nav {
   display: flex;
@@ -433,6 +682,37 @@ a {
   margin-top: 50px;
 
 
+  @media  screen and ( max-width: 1000px) {
+
+    
+    width: 100%;
+    
+  }
+
+
+  @media screen and ( max-width: 700px){ 
+
+
+    width: 300px;
+  }
+    
+
+
+  ul{    
+
+    @media screen and ( max-width: 1000px) {
+
+      width: 100%;
+      
+    }
+
+
+    @media screen and ( max-width: 500px){ 
+
+      width: 300px;
+    }
+  }
+
   .tt {
     display: flex;
     flex-direction: column;
@@ -443,6 +723,24 @@ a {
   p {
     margin-left: 310px;
     font-size: 35px;
+
+
+    @media screen and ( max-width: 1000px){ 
+
+
+      font-size: 15px;
+      width: 100%;
+    }
+
+
+    @media screen and  ( max-width: 500px){ 
+
+
+      width: 300px;
+      font-size: 10px;
+
+      margin-left: 100px;
+    }
   }
 
   ul {
@@ -462,9 +760,29 @@ a {
 
     li {
       width: 900px;
+
+
+      @media screen and ( max-width: 1000px){ 
+
+
+        width: 100%;
+        font-size: 15px;
+      }
+
+
+      @media screen and  ( max-width: 500px){ 
+
+
+        width: 300px;
+        font-size: 10px;
+
+        margin-left: -800px;
+      }
+        
+      }
     }
   }
-}
+
 
 .tour {
   width: 1100px;
@@ -640,9 +958,28 @@ a {
   margin-top: 50px;
 
 
+  @media screen and ( max-width: 1400px)
+
+  { flex-direction: column;
+  
+  width: 100%;}
+
+
 
   img {
     width: 300px;
+    @media  screen and ( max-width: 1400px) {
+
+      width: 900px;
+      
+    }
+
+
+    @media screen and ( max-width: 1000px) { 
+
+
+      width: 100%;
+    }
   }
 
   ;
@@ -677,6 +1014,17 @@ a {
   margin-top: 100px;
 
   border-top: 1px $header-color solid;
+
+
+
+  @media screen and ( max-width: 1400px){
+
+
+    flex-direction: column;
+    
+    
+    align-items: center;
+  }
 
   .kakheti {
     background-image: url(../images/kakheti.jpg);
