@@ -836,11 +836,34 @@ a {
   width: 1000px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1021px) {
+  .text {
+    width: 70%;
+  }
+}
 .text h2 {
   font-size: 30px;
+  display: inline-block;
+}
+@media screen and (max-width: 622px) {
+  .text h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .text h2 {
+    font-size: 17px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .text p {
   font-size: 25px;
+}
+@media screen and (max-width: 1000px) {
+  .text p {
+    font-size: 15px;
+  }
 }
 
 .box {
@@ -950,6 +973,32 @@ a {
   justify-content: space-around;
   margin-top: 90px;
 }
+@media screen and (max-width: 1400px) {
+  .infor {
+    gap: 100px;
+  }
+}
+@media screen and (max-width: 1251px) {
+  .infor {
+    gap: 50px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1243px) {
+  .infor {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .infor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    height: 300px;
+  }
+}
 .infor img {
   width: 40px;
 }
@@ -962,6 +1011,21 @@ a {
   font-size: 30px;
   color: white;
 }
+@media screen and (max-width: 1400px) {
+  .infor div p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1244px) {
+  .infor div p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .infor div p {
+    font-size: 15px;
+  }
+}
 .infor div .loc {
   background-color: yellow;
   display: flex;
@@ -970,6 +1034,32 @@ a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+@media screen and (max-width: 1400px) {
+  .infor div .loc {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1244px) {
+  .infor div .loc {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .infor div .loc {
+    margin-left: -50px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .infor div .loc {
+    margin-left: -80px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .infor div .loc {
+    margin-left: -30px;
+  }
 }
 
 .describe {
@@ -980,12 +1070,34 @@ a {
   width: 1200px;
   font-size: 20px;
 }
+@media screen and (max-width: 1250px) {
+  .describe p {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .describe p {
+    font-size: 16px;
+    width: 50%;
+  }
+}
 .describe .plan h3 {
   font-size: 25px;
 }
 .describe .plan p {
   font-size: 20px;
   width: 1000px;
+}
+@media screen and (max-width: 1250px) {
+  .describe .plan p {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .describe .plan p {
+    font-size: 16px;
+    width: 50%;
+  }
 }
 
 .kacxi {

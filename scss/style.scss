@@ -594,12 +594,6 @@ a {
 
 
 
-    img{
-      
-      
-
-
-      }
 
 
 
@@ -1071,12 +1065,41 @@ a {
   width: 1000px;
   margin: 0 auto;
 
+  @media  screen and ( max-width: 1021px) {
+
+    width: 70%;
+    
+  }
+
   h2 {
     font-size: 30px;
+    display: inline-block;
+
+
+    @media  screen and ( max-width: 622px) { 
+
+      font-size: 20px;
+      
+    }
+
+
+    @media screen and ( max-width: 400px){ 
+
+      font-size: 17px;
+      width: 100%;
+      margin: 0 auto;
+    }
   }
 
   p {
     font-size: 25px;
+
+
+
+    @media screen and ( max-width: 1000px){ 
+
+      font-size: 15px;
+    }
   }
 }
 
@@ -1164,6 +1187,44 @@ input{ @include input}}
   margin-top: 90px;
   
 
+  @media screen and ( max-width: 1400px) { 
+
+    gap: 100px;
+    
+  }
+
+
+  @media screen and ( max-width: 1251px){ 
+
+    gap: 50px;
+    font-size: 20px;
+  }
+
+
+
+  @media screen and ( max-width: 1243px){ 
+
+    gap: 10px;
+  }
+
+
+  @media screen and ( max-width: 575px){ 
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    gap: 50px;
+
+    height: 300px;
+    
+    
+    
+    
+      }
 
 
   img{ width: 40px;}
@@ -1173,7 +1234,25 @@ input{ @include input}}
     
     
     p{ font-size: 30px;
-    color: white;}
+    color: white;      
+  
+  
+    @media screen and ( max-width: 1400px) { 
+
+   font-size: 20px;
+      
+    }
+  
+  
+    @media screen and (max-width: 1244px){ 
+      
+      font-size: 20px;
+    }   
+  
+  
+    @media screen and ( max-width:860px){ 
+      font-size: 15px;
+    }}
   
   .loc{ background-color: yellow;
     display: flex;
@@ -1181,24 +1260,96 @@ input{ @include input}}
     align-items: center;
     width: 50px;
     height: 50px;
-  border-radius: 50%;}}
+  border-radius: 50%;
+  
+  
+  @media screen and ( max-width: 1400px) { 
+
+    margin-left: 100px;
+    
+  }
+
+
+  @media screen and (max-width: 1244px){ 
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+
+
+  @media screen and ( max-width: 1440px){ 
+
+    margin-left: -50px;
+  }
+
+
+  @media screen and ( max-width:1250px){ 
+    margin-left: -80px;
+  } 
+
+
+  @media screen and (max-width: 750px){ 
+
+    margin-left: -30px;
+  }
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+}}
 }
 
 
 .describe{ margin-top: 100px;
   margin-left: 50px;
-  
+
+
+
 
 
 
 p{ width: 1200px;
-font-size: 20px;}
+font-size: 20px;   
+
+@media screen and ( max-width: 1250px){ 
+
+  width: 70%;
+}
+
+
+@media screen and ( max-width: 1050px){ 
+  font-size: 16px;
+  width: 50%;
+}
+}
 
   .plan{ 
 
     h3{ font-size: 25px;}
     p{ font-size: 20px;
-    width: 1000px;}
+    width: 1000px;    
+  
+  
+  
+    @media screen and ( max-width: 1250px){ 
+
+      width: 70%;
+    }
+    
+    
+    @media screen and ( max-width: 1050px){ 
+      font-size: 16px;
+      width: 50%;
+    }}
   }
 
 }
